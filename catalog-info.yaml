@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sample-hello-world-react-temp-test2"
+  description: "sample-hello-world-react-temp-test2"
+  annotations:
+    github.com/project-slug: sohemokashi/sample-hello-world-react-temp-test2
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "guests"
